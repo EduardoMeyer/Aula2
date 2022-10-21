@@ -1,0 +1,49 @@
+/* reset css padrão */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* vh serve para manipulas o tamanho da tela, ou seja, vai pegar somente o tamanho da tela que estou vendo e vai centralizar. */
+.container {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('./asests/imagem.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.section{
+margin-left: 282px;
+}
+
+
+.boxtext { 
+
+display: flex;
+flex-direction: column;
+margin-bottom: 123px;
+
+}
+
+.title { 
+font-size: 80px;
+font-family: "inter", sans-serif;
+
+}
+
+
+.text{
+    font-size: 40px;
+    font-family: "inter", sans-serif;
+
+}
+
